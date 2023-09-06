@@ -3,3 +3,9 @@
 -- Add any additional options here
 
 vim.g.mapleader = ","
+
+local opt = vim.opt
+opt.relativenumber = true -- Relative line numbers
+opt.hidden = true
+opt.backup = false
+opt.writebackup = false
